@@ -29,16 +29,5 @@ dependencies {
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 apply plugin: 'whitesource'
-
-whitesource {
-orgToken='9a97f3491d4c44afba6c41f83305f22dcea76842bdc6458dae838a81a47253ab'
-    checkPolicies = false
-    forceUpdate = false
-    failOnRejection = false
-    failOnError = false
-    productName = "QA_Tests_Product"
-	projectName = "WST_149"
-	dependencyFilter includeAllDependencies
-wssUrl ='https://dev.whitesourcesoftware.com/agent'
  }
 
